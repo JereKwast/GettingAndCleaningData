@@ -14,6 +14,7 @@ test.var <- read.table("X_test.txt", col.names=features[[2]], quote="\"")
 test.subject <- read.table("subject_test.txt", col.names=c("Subject.ID"), quote="\"")
 test.activity <- read.table("y_test.txt", col.names=c("Activity.ID"), quote="\"")
 ##Y_test <- rename(Y_test, ActivityID = V1)
+##merge re-orders data
 test.label <- merge(test.activity, activity.labels, by="Activity.ID",all=TRUE)
 
 test.var <- dplyr::bind_cols(test.label, test.var)
@@ -37,9 +38,16 @@ train.var <- select(train.var, Subject.ID, Activity.ID, Activity.Description, ma
 
 ##Merge Test and Training
 df <- dplyr::bind_rows(test.var, train.var)
+df.sort <- arrange(df, Subject.ID, Activity.ID)
+write.table(df.sort, "df.csv", row.names=FALSE, sep=",")
+
+
+rm(df.Sum)
+df.Sum <- df %>% group_by(Subject.ID, Activity.ID, Activity.Description) %>% summarise_each(funs(mean)) %>% arrange(Subject.ID, Activity.ID)
+
 
 nm <- colnames(df)
-write.table(nm, "cols.csv", sep=",")
+write.table(nm, "cols.csv", row.names=FALSE, sep=",")
 
 
 
