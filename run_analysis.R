@@ -15,7 +15,7 @@ test.subject <- read.table("subject_test.txt", col.names=c("Subject.ID"), quote=
 test.activity <- read.table("y_test.txt", col.names=c("Activity.ID"), quote="\"")
 ##Y_test <- rename(Y_test, ActivityID = V1)
 ##merge re-orders data
-test.label <- merge(test.activity, activity.labels, by="Activity.ID",all=TRUE)
+test.label <- left_join(test.activity, activity.labels, by="Activity.ID")
 
 test.var <- dplyr::bind_cols(test.label, test.var)
 test.var <- dplyr::bind_cols(test.subject, test.var)
@@ -27,7 +27,7 @@ test.var <- select(test.var, Subject.ID, Activity.ID, Activity.Description, matc
 train.var <- read.table("X_train.txt", col.names=features[[2]], quote="\"")
 train.subject <- read.table("subject_train.txt", col.names=c("Subject.ID"), quote="\"")
 train.activity <- read.table("y_train.txt", col.names=c("Activity.ID"), quote="\"")
-train.label <- merge(train.activity, activity.labels, by="Activity.ID",all=TRUE)
+train.label <- left_join(train.activity, activity.labels, by="Activity.ID")
 
 train.var <- dplyr::bind_cols(train.label, train.var)
 train.var <- dplyr::bind_cols(train.subject, train.var)
