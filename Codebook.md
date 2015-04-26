@@ -1,0 +1,327 @@
+---
+title: "Codebook"
+output: html_document
+---
+* SubjectID
+
+SubjectID
+
+* ActivityDescription
+
+ActivityDescription
+
+* BodyAccelerationTimeMeanX
+
+Time Domain Body Acceleration signalMeanX
+
+* BodyAccelerationTimeMeanY
+
+Time Domain Body Acceleration signalMeanY
+
+* BodyAccelerationTimeMeanZ
+
+Time Domain Body Acceleration signalMeanZ
+
+* GravityAccelerationTimeMeanX
+
+Time Domain Gravity acceleration signalMeanX
+
+* GravityAccelerationTimeMeanY
+
+Time Domain Gravity acceleration signalMeanY
+
+* GravityAccelerationTimeMeanZ
+
+Time Domain Gravity acceleration signalMeanZ
+
+* BodyAccelerationTimeJerkMeanX
+
+Time Domain Body Acceleration signalJerkMeanX
+
+* BodyAccelerationTimeJerkMeanY
+
+Time Domain Body Acceleration signalJerkMeanY
+
+* BodyAccelerationTimeJerkMeanZ
+
+Time Domain Body Acceleration signalJerkMeanZ
+
+* BodyAngularVelocityTimeMeanX
+
+BodyAngularVelocityTimeMeanX
+
+* BodyAngularVelocityTimeMeanY
+
+BodyAngularVelocityTimeMeanY
+
+* BodyAngularVelocityTimeMeanZ
+
+BodyAngularVelocityTimeMeanZ
+
+* BodyAngularVelocityTimeJerkMeanX
+
+BodyAngularVelocityTimeJerkMeanX
+
+* BodyAngularVelocityTimeJerkMeanY
+
+BodyAngularVelocityTimeJerkMeanY
+
+* BodyAngularVelocityTimeJerkMeanZ
+
+BodyAngularVelocityTimeJerkMeanZ
+
+* BodyAccelerationTimeMagMean
+
+Time Domain Body Acceleration signalMagMean
+
+* GravityAccelerationTimeMagMean
+
+Time Domain Gravity acceleration signalMagMean
+
+* BodyAccelerationTimeJerkMagMean
+
+Time Domain Body Acceleration signalJerkMagMean
+
+* BodyAngularVelocityTimeMagMean
+
+BodyAngularVelocityTimeMagMean
+
+* BodyAngularVelocityTimeJerkMagMean
+
+BodyAngularVelocityTimeJerkMagMean
+
+* BodyAccelerationFrequencyMeanX
+
+Frequency Body Acceleration signalMeanX
+
+* BodyAccelerationFrequencyMeanY
+
+Frequency Body Acceleration signalMeanY
+
+* BodyAccelerationFrequencyMeanZ
+
+Frequency Body Acceleration signalMeanZ
+
+* BodyAccelerationFrequencyMeanX
+
+Frequency Body Acceleration signalMeanX
+
+* BodyAccelerationFrequencyMeanY
+
+Frequency Body Acceleration signalMeanY
+
+* BodyAccelerationFrequencyMeanZ
+
+Frequency Body Acceleration signalMeanZ
+
+* BodyAccelerationFrequencyJerkMeanX
+
+Frequency Body Acceleration signalJerkMeanX
+
+* BodyAccelerationFrequencyJerkMeanY
+
+Frequency Body Acceleration signalJerkMeanY
+
+* BodyAccelerationFrequencyJerkMeanZ
+
+Frequency Body Acceleration signalJerkMeanZ
+
+* BodyAccelerationFrequencyJerkMeanX
+
+Frequency Body Acceleration signalJerkMeanX
+
+* BodyAccelerationFrequencyJerkMeanY
+
+Frequency Body Acceleration signalJerkMeanY
+
+* BodyAccelerationFrequencyJerkMeanZ
+
+Frequency Body Acceleration signalJerkMeanZ
+
+* BodyAngularVelocityFrequencyMeanX
+
+BodyAngularVelocityFrequencyMeanX
+
+* BodyAngularVelocityFrequencyMeanY
+
+BodyAngularVelocityFrequencyMeanY
+
+* BodyAngularVelocityFrequencyMeanZ
+
+BodyAngularVelocityFrequencyMeanZ
+
+* BodyAngularVelocityFrequencyMeanX
+
+BodyAngularVelocityFrequencyMeanX
+
+* BodyAngularVelocityFrequencyMeanY
+
+BodyAngularVelocityFrequencyMeanY
+
+* BodyAngularVelocityFrequencyMeanZ
+
+BodyAngularVelocityFrequencyMeanZ
+
+* BodyAccelerationFrequencyMagMean
+
+Frequency Body Acceleration signalMagMean
+
+* BodyAccelerationFrequencyMagMean
+
+Frequency Body Acceleration signalMagMean
+
+* BodyAccelerationFrequencyJerkMagMean
+
+Frequency Body Acceleration signalJerkMagMean
+
+* BodyAccelerationFrequencyJerkMagMean
+
+Frequency Body Acceleration signalJerkMagMean
+
+* BodyAngularVelocityFrequencyMagMean
+
+BodyAngularVelocityFrequencyMagMean
+
+* BodyAngularVelocityFrequencyMagMean
+
+BodyAngularVelocityFrequencyMagMean
+
+* BodyAngularVelocityFrequencyJerkMagMean
+
+BodyAngularVelocityFrequencyJerkMagMean
+
+* BodyAngularVelocityFrequencyJerkMagMean
+
+BodyAngularVelocityFrequencyJerkMagMean
+
+* BodyAccelerationTimeStandardDeviationX
+
+Time Domain Body Acceleration signalStandardDeviationX
+
+* BodyAccelerationTimeStandardDeviationY
+
+Time Domain Body Acceleration signalStandardDeviationY
+
+* BodyAccelerationTimeStandardDeviationZ
+
+Time Domain Body Acceleration signalStandardDeviationZ
+
+* GravityAccelerationTimeStandardDeviationX
+
+Time Domain Gravity acceleration signalStandardDeviationX
+
+* GravityAccelerationTimeStandardDeviationY
+
+Time Domain Gravity acceleration signalStandardDeviationY
+
+* GravityAccelerationTimeStandardDeviationZ
+
+Time Domain Gravity acceleration signalStandardDeviationZ
+
+* BodyAccelerationTimeJerkStandardDeviationX
+
+Time Domain Body Acceleration signalJerkStandardDeviationX
+
+* BodyAccelerationTimeJerkStandardDeviationY
+
+Time Domain Body Acceleration signalJerkStandardDeviationY
+
+* BodyAccelerationTimeJerkStandardDeviationZ
+
+Time Domain Body Acceleration signalJerkStandardDeviationZ
+
+* BodyAngularVelocityTimeStandardDeviationX
+
+BodyAngularVelocityTimeStandardDeviationX
+
+* BodyAngularVelocityTimeStandardDeviationY
+
+BodyAngularVelocityTimeStandardDeviationY
+
+* BodyAngularVelocityTimeStandardDeviationZ
+
+BodyAngularVelocityTimeStandardDeviationZ
+
+* BodyAngularVelocityTimeJerkStandardDeviationX
+
+BodyAngularVelocityTimeJerkStandardDeviationX
+
+* BodyAngularVelocityTimeJerkStandardDeviationY
+
+BodyAngularVelocityTimeJerkStandardDeviationY
+
+* BodyAngularVelocityTimeJerkStandardDeviationZ
+
+BodyAngularVelocityTimeJerkStandardDeviationZ
+
+* BodyAccelerationTimeMagStandardDeviation
+
+Time Domain Body Acceleration signalMagStandardDeviation
+
+* GravityAccelerationTimeMagStandardDeviation
+
+Time Domain Gravity acceleration signalMagStandardDeviation
+
+* BodyAccelerationTimeJerkMagStandardDeviation
+
+Time Domain Body Acceleration signalJerkMagStandardDeviation
+
+* BodyAngularVelocityTimeMagStandardDeviation
+
+BodyAngularVelocityTimeMagStandardDeviation
+
+* BodyAngularVelocityTimeJerkMagStandardDeviation
+
+BodyAngularVelocityTimeJerkMagStandardDeviation
+
+* BodyAccelerationFrequencyStandardDeviationX
+
+Frequency Body Acceleration signalStandardDeviationX
+
+* BodyAccelerationFrequencyStandardDeviationY
+
+Frequency Body Acceleration signalStandardDeviationY
+
+* BodyAccelerationFrequencyStandardDeviationZ
+
+Frequency Body Acceleration signalStandardDeviationZ
+
+* BodyAccelerationFrequencyJerkStandardDeviationX
+
+Frequency Body Acceleration signalJerkStandardDeviationX
+
+* BodyAccelerationFrequencyJerkStandardDeviationY
+
+Frequency Body Acceleration signalJerkStandardDeviationY
+
+* BodyAccelerationFrequencyJerkStandardDeviationZ
+
+Frequency Body Acceleration signalJerkStandardDeviationZ
+
+* BodyAngularVelocityFrequencyStandardDeviationX
+
+BodyAngularVelocityFrequencyStandardDeviationX
+
+* BodyAngularVelocityFrequencyStandardDeviationY
+
+BodyAngularVelocityFrequencyStandardDeviationY
+
+* BodyAngularVelocityFrequencyStandardDeviationZ
+
+BodyAngularVelocityFrequencyStandardDeviationZ
+
+* BodyAccelerationFrequencyMagStandardDeviation
+
+Frequency Body Acceleration signalMagStandardDeviation
+
+* BodyAccelerationFrequencyJerkMagStandardDeviation
+
+Frequency Body Acceleration signalJerkMagStandardDeviation
+
+* BodyAngularVelocityFrequencyMagStandardDeviation
+
+BodyAngularVelocityFrequencyMagStandardDeviation
+
+* BodyAngularVelocityFrequencyJerkMagStandardDeviation
+
+BodyAngularVelocityFrequencyJerkMagStandardDeviation
