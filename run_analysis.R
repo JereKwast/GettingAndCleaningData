@@ -94,4 +94,4 @@ colnames(df.Sum) <- nm
 
 print("Writing output file")
 ##write dataset to file
-write.table(df.Sum, file="GettingAndCleaningData-CourseProject-SamsungPhoneDataTidy.txt", sep=",", row.names=FALSE, col.names=TRUE)
+write.table(df.Sum, file="tidy_data.txt", sep=",", row.names=FALSE, col.names=TRUE)
