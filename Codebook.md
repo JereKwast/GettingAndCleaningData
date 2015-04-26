@@ -2,326 +2,210 @@
 title: "Codebook"
 output: html_document
 ---
+> tidy_data.txt is created by the run_analysis.R script and contains the columns listed below. The script provides the average measurement for the mean and standard deviation, for each subject and activity. All values are averages of the stated measurements. X,Y or Z are denoting the direction the measurement and are appeneded to the end of the proper column names.
+
+> Please refer to the features_info.txt file of https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip for further information.
+
 * SubjectID
-
-SubjectID
-
-* ActivityDescription
-
-ActivityDescription
+    + The subjects are anonymous, so this field serves to ID each individual providing data
+  
+* ActivityDescription 
+    + The type of activity being performed by the subject at the time of measurement. 
 
 * BodyAccelerationTimeMeanX
-
-Time Domain Body Acceleration signalMeanX
+    + Mean of the Time Domain from Body Acceleration signal for X
 
 * BodyAccelerationTimeMeanY
-
-Time Domain Body Acceleration signalMeanY
+    + Mean of the Time Domain from Body Acceleration signal for Y
 
 * BodyAccelerationTimeMeanZ
-
-Time Domain Body Acceleration signalMeanZ
+    + Mean of the Time Domain from Body Acceleration signal for Z
 
 * GravityAccelerationTimeMeanX
-
-Time Domain Gravity acceleration signalMeanX
+    + Mean of the Time Domain from Gravity acceleration signal for X
 
 * GravityAccelerationTimeMeanY
-
-Time Domain Gravity acceleration signalMeanY
+    + Mean of the Time Domain from Gravity acceleration signal for Y
 
 * GravityAccelerationTimeMeanZ
-
-Time Domain Gravity acceleration signalMeanZ
+    + Mean of the Time Domain from Gravity acceleration signal for Z
 
 * BodyAccelerationTimeJerkMeanX
-
-Time Domain Body Acceleration signalJerkMeanX
+    + Mean of Time Domain from Body Acceleration Jerk signal for X
 
 * BodyAccelerationTimeJerkMeanY
-
-Time Domain Body Acceleration signalJerkMeanY
+    + Mean of Time Domain from Body Acceleration Jerk signal for Y
 
 * BodyAccelerationTimeJerkMeanZ
-
-Time Domain Body Acceleration signalJerkMeanZ
+    + Mean of Time Domain from Body Acceleration Jerk signal for Z
 
 * BodyAngularVelocityTimeMeanX
-
-BodyAngularVelocityTimeMeanX
+    + Mean of the Time from Body Angular Velocity signal for X
 
 * BodyAngularVelocityTimeMeanY
-
-BodyAngularVelocityTimeMeanY
+    + Mean of the Time from Body Angular Velocity signal for Y
 
 * BodyAngularVelocityTimeMeanZ
-
-BodyAngularVelocityTimeMeanZ
+    + Mean of the Time from Body Angular Velocity signal for Z
 
 * BodyAngularVelocityTimeJerkMeanX
-
-BodyAngularVelocityTimeJerkMeanX
+    + Mean of the Time from Body Angular Velocity Jerk signal for X
 
 * BodyAngularVelocityTimeJerkMeanY
-
-BodyAngularVelocityTimeJerkMeanY
+    + Mean of the Time from Body Angular Velocity Jerk signal for Y
 
 * BodyAngularVelocityTimeJerkMeanZ
-
-BodyAngularVelocityTimeJerkMeanZ
+    + Mean of the Time from Body Angular Velocity Jerk signal for Z
 
 * BodyAccelerationTimeMagMean
-
-Time Domain Body Acceleration signalMagMean
+    + Mean of the Time Body Acceleration Magnitude signal for X
 
 * GravityAccelerationTimeMagMean
-
-Time Domain Gravity acceleration signalMagMean
+    + Mean of the Time Body Acceleration Magnitude signal for Y
 
 * BodyAccelerationTimeJerkMagMean
-
-Time Domain Body Acceleration signalJerkMagMean
+    + Mean of the Time Body Acceleration Magnitude signal for Z
 
 * BodyAngularVelocityTimeMagMean
-
-BodyAngularVelocityTimeMagMean
+    + Mean of the Time Body Angular Velocity Magnitude
 
 * BodyAngularVelocityTimeJerkMagMean
-
-BodyAngularVelocityTimeJerkMagMean
-
-* BodyAccelerationFrequencyMeanX
-
-Frequency Body Acceleration signalMeanX
-
-* BodyAccelerationFrequencyMeanY
-
-Frequency Body Acceleration signalMeanY
-
-* BodyAccelerationFrequencyMeanZ
-
-Frequency Body Acceleration signalMeanZ
+    + Mean of the Time Body Angular Velocity Jerk Magnitude
 
 * BodyAccelerationFrequencyMeanX
-
-Frequency Body Acceleration signalMeanX
+    + Mean Frequency of the Body Acceleration signal for X
 
 * BodyAccelerationFrequencyMeanY
-
-Frequency Body Acceleration signalMeanY
+    + Mean Frequency of the Body Acceleration signal for Y
 
 * BodyAccelerationFrequencyMeanZ
-
-Frequency Body Acceleration signalMeanZ
-
-* BodyAccelerationFrequencyJerkMeanX
-
-Frequency Body Acceleration signalJerkMeanX
-
-* BodyAccelerationFrequencyJerkMeanY
-
-Frequency Body Acceleration signalJerkMeanY
-
-* BodyAccelerationFrequencyJerkMeanZ
-
-Frequency Body Acceleration signalJerkMeanZ
+    + Mean Frequency of the Body Acceleration signal for Z
 
 * BodyAccelerationFrequencyJerkMeanX
-
-Frequency Body Acceleration signalJerkMeanX
+    + Mean Frequency of the Body Acceleration Jerk signal for X
 
 * BodyAccelerationFrequencyJerkMeanY
-
-Frequency Body Acceleration signalJerkMeanY
+    + Mean Frequency of the Body Acceleration Jerk signal for Y
 
 * BodyAccelerationFrequencyJerkMeanZ
-
-Frequency Body Acceleration signalJerkMeanZ
-
-* BodyAngularVelocityFrequencyMeanX
-
-BodyAngularVelocityFrequencyMeanX
-
-* BodyAngularVelocityFrequencyMeanY
-
-BodyAngularVelocityFrequencyMeanY
-
-* BodyAngularVelocityFrequencyMeanZ
-
-BodyAngularVelocityFrequencyMeanZ
+    + Mean Frequency of the Body Acceleration Jerk signal for Z
 
 * BodyAngularVelocityFrequencyMeanX
-
-BodyAngularVelocityFrequencyMeanX
+    + Mean Frequency of the Body Angular Velocity signal for X
 
 * BodyAngularVelocityFrequencyMeanY
-
-BodyAngularVelocityFrequencyMeanY
+    + Mean Frequency of the Body Angular Velocity signal for Y
 
 * BodyAngularVelocityFrequencyMeanZ
-
-BodyAngularVelocityFrequencyMeanZ
-
-* BodyAccelerationFrequencyMagMean
-
-Frequency Body Acceleration signalMagMean
+    + Mean Frequency of the Body Angular Velocity signal for Z
 
 * BodyAccelerationFrequencyMagMean
-
-Frequency Body Acceleration signalMagMean
-
-* BodyAccelerationFrequencyJerkMagMean
-
-Frequency Body Acceleration signalJerkMagMean
+    + Mean Frequency of the Body Acceleration Magnitude signal
 
 * BodyAccelerationFrequencyJerkMagMean
-
-Frequency Body Acceleration signalJerkMagMean
-
-* BodyAngularVelocityFrequencyMagMean
-
-BodyAngularVelocityFrequencyMagMean
+    + Mean Frequency of the Body Acceleration Jerk Magnitude signal
 
 * BodyAngularVelocityFrequencyMagMean
-
-BodyAngularVelocityFrequencyMagMean
-
-* BodyAngularVelocityFrequencyJerkMagMean
-
-BodyAngularVelocityFrequencyJerkMagMean
+    + Mean Frequency of the Body Angular Velocity Magnitude signal
 
 * BodyAngularVelocityFrequencyJerkMagMean
-
-BodyAngularVelocityFrequencyJerkMagMean
+    + Mean Frequency of the Body Angular Velocity Jerk Magnitude signal
 
 * BodyAccelerationTimeStandardDeviationX
-
-Time Domain Body Acceleration signalStandardDeviationX
+    + Standard Deviation of Time Domain Body Acceleration signal for X
 
 * BodyAccelerationTimeStandardDeviationY
-
-Time Domain Body Acceleration signalStandardDeviationY
+    + Standard Deviation of Time Domain Body Acceleration signal for Y
 
 * BodyAccelerationTimeStandardDeviationZ
-
-Time Domain Body Acceleration signalStandardDeviationZ
+    + Standard Deviation of Time Domain Body Acceleration signal for Z
 
 * GravityAccelerationTimeStandardDeviationX
-
-Time Domain Gravity acceleration signalStandardDeviationX
+  + Standard Deviation of Time Domain Gravity acceleration signal for X
 
 * GravityAccelerationTimeStandardDeviationY
-
-Time Domain Gravity acceleration signalStandardDeviationY
+  + Standard Deviation of Time Domain Gravity acceleration signal for Y
 
 * GravityAccelerationTimeStandardDeviationZ
-
-Time Domain Gravity acceleration signalStandardDeviationZ
+  + Standard Deviation of Time Domain Gravity acceleration signal for Z
 
 * BodyAccelerationTimeJerkStandardDeviationX
-
-Time Domain Body Acceleration signalJerkStandardDeviationX
+    + Standard Deviation of Time Domain Body Acceleration Jerk signal for X
 
 * BodyAccelerationTimeJerkStandardDeviationY
-
-Time Domain Body Acceleration signalJerkStandardDeviationY
+    + Standard Deviation of Time Domain Body Acceleration Jerk signal for Y
 
 * BodyAccelerationTimeJerkStandardDeviationZ
-
-Time Domain Body Acceleration signalJerkStandardDeviationZ
+    + Standard Deviation of Time Domain Body Acceleration Jerk signal for Z
 
 * BodyAngularVelocityTimeStandardDeviationX
-
-BodyAngularVelocityTimeStandardDeviationX
-
+    + Standard Deviation of Time Angular velocity signal for X 
+    
 * BodyAngularVelocityTimeStandardDeviationY
-
-BodyAngularVelocityTimeStandardDeviationY
-
+    + Standard Deviation of Time Angular velocity signal for Y
+    
 * BodyAngularVelocityTimeStandardDeviationZ
-
-BodyAngularVelocityTimeStandardDeviationZ
+    + Standard Deviation of Time Angular velocity signal for Z
 
 * BodyAngularVelocityTimeJerkStandardDeviationX
-
-BodyAngularVelocityTimeJerkStandardDeviationX
+    + Standard Deviation of Time Angular velocity Jerk signal for X
 
 * BodyAngularVelocityTimeJerkStandardDeviationY
-
-BodyAngularVelocityTimeJerkStandardDeviationY
+    + Standard Deviation of Time Angular velocity Jerk signal for Y
 
 * BodyAngularVelocityTimeJerkStandardDeviationZ
-
-BodyAngularVelocityTimeJerkStandardDeviationZ
+    + Standard Deviation of Time Angular velocity Jerk signal for Z
 
 * BodyAccelerationTimeMagStandardDeviation
-
-Time Domain Body Acceleration signalMagStandardDeviation
+    + Standard Deviation of Time Domain Body Acceleration Magnitude signal
 
 * GravityAccelerationTimeMagStandardDeviation
-
-Time Domain Gravity acceleration signalMagStandardDeviation
+    + Standard Deviation of Time Domain Gravity Acceleration Magnitude signal
 
 * BodyAccelerationTimeJerkMagStandardDeviation
-
-Time Domain Body Acceleration signalJerkMagStandardDeviation
+    + Standard Deviation of Time Domain Body Acceleration Jerk Magnitude signal
 
 * BodyAngularVelocityTimeMagStandardDeviation
-
-BodyAngularVelocityTimeMagStandardDeviation
+    + Standard Deviation of Time Domain Body Angular Velocity Magnitude signal
 
 * BodyAngularVelocityTimeJerkMagStandardDeviation
-
-BodyAngularVelocityTimeJerkMagStandardDeviation
+    + Standard Deviation of Time Domain Body Angular Velocity Jerk Magnitude signal
 
 * BodyAccelerationFrequencyStandardDeviationX
-
-Frequency Body Acceleration signalStandardDeviationX
+    + Standard Deviation of Frequency Body Acceleration signal for X
 
 * BodyAccelerationFrequencyStandardDeviationY
-
-Frequency Body Acceleration signalStandardDeviationY
+    + Standard Deviation of Frequency Body Acceleration signal for Y
 
 * BodyAccelerationFrequencyStandardDeviationZ
-
-Frequency Body Acceleration signalStandardDeviationZ
+    + Standard Deviation of Frequency Body Acceleration signal for Z
 
 * BodyAccelerationFrequencyJerkStandardDeviationX
-
-Frequency Body Acceleration signalJerkStandardDeviationX
+    + Standard Deviation of Frequency Body Acceleration Jerk signal for X
 
 * BodyAccelerationFrequencyJerkStandardDeviationY
-
-Frequency Body Acceleration signalJerkStandardDeviationY
+    + Standard Deviation of Frequency Body Acceleration Jerk signal for Y
 
 * BodyAccelerationFrequencyJerkStandardDeviationZ
-
-Frequency Body Acceleration signalJerkStandardDeviationZ
+    + Standard Deviation of Frequency Body Acceleration Jerk signal for Z
 
 * BodyAngularVelocityFrequencyStandardDeviationX
-
-BodyAngularVelocityFrequencyStandardDeviationX
+    + Standard Deviation of Frequency Body Angular Velocity signal for X
 
 * BodyAngularVelocityFrequencyStandardDeviationY
-
-BodyAngularVelocityFrequencyStandardDeviationY
+    + Standard Deviation of Frequency Body Angular Velocity signal for X
 
 * BodyAngularVelocityFrequencyStandardDeviationZ
-
-BodyAngularVelocityFrequencyStandardDeviationZ
+    + Standard Deviation of Frequency Body Angular Velocity signal for X
 
 * BodyAccelerationFrequencyMagStandardDeviation
-
-Frequency Body Acceleration signalMagStandardDeviation
+    + Standard Deviation of Frequency Body Acceleration Magnitude signal for X
 
 * BodyAccelerationFrequencyJerkMagStandardDeviation
-
-Frequency Body Acceleration signalJerkMagStandardDeviation
+    + Standard Deviation of Frequency Body Acceleration Magnitude Jerk signal for X
 
 * BodyAngularVelocityFrequencyMagStandardDeviation
-
-BodyAngularVelocityFrequencyMagStandardDeviation
-
+    + Standard Deviation of Frequency Body Angular Velocity Magnitude signal for X
+    
 * BodyAngularVelocityFrequencyJerkMagStandardDeviation
-
-BodyAngularVelocityFrequencyJerkMagStandardDeviation
+    + Standard Deviation of Frequency Body Angular Velocity Jerk Magnitude signal for X
